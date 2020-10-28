@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+
+.logo img {
+    max-width: 150px;
+    min-height: 150px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: -20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-emphasis: none;
+    padding-right: 150px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+nav ul {
+    margin-left: 18%;
+    margin-right: auto;
+    display: block;
+}
