@@ -6,29 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beautiful Tulungagung</title>
     <link rel="stylesheet" href="style.css">
-    <title>Komentar & Rating</title>
 </head>
 
 <body>
-    <div class="logo">
-        <img src="logo.png" alt="Beautiful Tulungagung">
+    <div class="logo ">
+        <img src="logo.png " alt="Beautiful Tulungagung ">
     </div>
     <nav>
         <ul>
             <li>
-                <a href="#">Home</a>
+                <a href="# ">Home</a>
             </li>
             <li>
-                <a href="#">Wisata Sejarah</a>
+                <a href="# ">Wisata Sejarah</a>
             </li>
             <li>
-                <a href="#">Wisata Alam</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Wisata Alam</button>
+                    <div class="dropdown-content">
+                        <a href="#">Pantai</a>
+                        <a href="#">Air Terjun</a>
+                        <a href="#">Wisata Lain</a>
+                    </div>
+                </div>
             </li>
             <li>
-                <a href="#">Wisata Buatan</a>
+                <a href="# ">Wisata Buatan</a>
             </li>
         </ul>
     </nav>
+    <br>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="ta1.jpg">
+            <div class="garisatas">_________________________</div>
+            <div class="text">GOR Lembu Peteng</div>
+            <div class="garisbawah">_________________________</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="ta2.jpg">
+            <div class="garisatas">_________________________</div>
+            <div class="text">Bukit Tunggul Manik</div>
+            <div class="garisbawah">_________________________</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="ta3.jpg">
+            <div class="garisatas">_________________________</div>
+            <div class="text">Gunung Budheg</div>
+            <div class="garisbawah">_________________________</div>
+        </div>
+    </div>
+    <br>
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <script type="text/javascript" src="slider.js"></script>
+=======
 </body>
 
 </html>
