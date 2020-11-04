@@ -80,5 +80,12 @@ nav ul {
 
 .img {
     background-color: #d07500;
-    size-;
+}
+
+nav ul1 {
+    display: block;
+}
+
+nav ul1 li {
+    display: inline;
 }
