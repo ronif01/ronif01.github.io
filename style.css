@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #141626;
 }
 
 .logo img {
@@ -34,7 +34,7 @@ nav ul {
 }
 
 .dropbtn {
-    background-color: black;
+    background-color: #141626;
     color: white;
     padding-right: 150px;
     padding-top: 10px;
@@ -51,7 +51,7 @@ nav ul {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: black;
+    background-color: #141626;
     min-width: 160px;
 }
 
@@ -60,11 +60,11 @@ nav ul {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    font-family: "Croissant One";
+    font-family: Helvetica, sans-serif;
 }
 
 .dropdown-content a:hover {
-    background-color: black
+    background-color: #141626
 }
 
 .dropdown:hover .dropdown-content {
@@ -81,8 +81,9 @@ nav ul {
 
 .slideshow-container {
     max-width: 100%;
+    min-width: auto;
     position: relative;
-    margin: auto;
+    margin: 0;
 }
 
 .text {
@@ -172,4 +173,48 @@ nav ul {
     to {
         opacity: 1
     }
+}
+
+.gambartulungagung {
+    margin: 80px;
+}
+
+.sekilas {
+    background-color: #cf7500;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-right: auto;
+    margin-left: 40%;
+    margin-top: 200px;
+}
+
+.sekilasta {
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+.sekilas h2 {
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+
+.gambartulungagung {
+    text-align: center;
+}
+
+.tulungagungdepan img,
+.tulungagungbelakang img {
+    max-width: 600px;
+    min-width: 400px;
+}
+
+.tulungagungbelakang {
+    opacity: 0.9;
+    z-index: -1;
+}
+
+.tulungagungdepan {
+    z-index: 1;
 }
