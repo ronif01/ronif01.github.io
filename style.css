@@ -12,6 +12,10 @@ body {
     margin-top: -20px;
 }
 
+nav {
+    position: relative;
+}
+
 nav ul li {
     display: inline;
 }
@@ -22,7 +26,7 @@ nav ul li a {
     padding-right: 150px;
     padding-top: 10px;
     color: white;
-    font-family: sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 18px;
     display: inline-block;
 }
@@ -102,7 +106,7 @@ nav ul {
 .garisatas {
     color: #ffffff;
     font-size: 24px;
-    font-family: sans-serif;
+    font-family: Helvetica, sans-serif;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
@@ -115,7 +119,7 @@ nav ul {
 .garisbawah {
     color: #ffffff;
     font-size: 24px;
-    font-family: sans-serif;
+    font-family: Helvetica, sans-serif;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
@@ -207,14 +211,88 @@ nav ul {
 .tulungagungdepan img,
 .tulungagungbelakang img {
     max-width: 600px;
-    min-width: 400px;
-}
-
-.tulungagungbelakang {
-    opacity: 0.9;
-    z-index: -1;
+    min-width: auto;
 }
 
 .tulungagungdepan {
-    z-index: 1;
+    z-index: -1;
+    margin-top: -400px;
+    margin-left: 40px;
+}
+
+.tulungagungadalah {
+    margin: 60px;
+    color: white;
+}
+
+.tulungagungadalah .selengkapnya {
+    position: relative;
+    width: 150px;
+    left: 65%;
+    background-color: #cf7500;
+    padding: 3px 3px;
+    text-decoration: none;
+    font-weight: normal;
+    border-radius: 50px;
+}
+
+.tulungagungadalah .selengkapnya h4 {
+    text-align: center;
+}
+
+.tulungagungadalah p {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.wisatapilihan {
+    background-color: #cf7500;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-right: auto;
+    left: 40%;
+    margin-top: 200px;
+}
+
+.wisatapilihanbgt {
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+.wisatapilihan h2 {
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+
+.tabelwisatapilihan table {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    text-align: center;
+}
+
+.tabelwisatapilihan tr,
+.tabelwisatapilihan td {
+    margin: 30px;
+    padding: 15px 30px;
+}
+
+.tabelwisatapilihan h4 {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.tabelwisatapilihan img {
+    max-width: 300px;
+}
+
+.profile {
+    position: absolute;
+}
+
+.profile img {
+    width: 80px;
 }
