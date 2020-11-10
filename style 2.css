@@ -80,6 +80,7 @@ nav ul {
     margin-right: auto;
     display: block;
     margin-top: 20px;
+    word-spacing: 7px;
 }
 
 .DaftarWisata {
@@ -98,6 +99,16 @@ nav ul {
     width: 550px;
     height: auto;
 }
+
+.GambarWisataVertikal {
+    width: auto;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 
 #NamaWisata {
     color: #d07500;
