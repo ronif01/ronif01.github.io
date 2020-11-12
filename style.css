@@ -50,7 +50,6 @@ nav ul li a {
     text-emphasis: none;
     padding: 10px 150px 10px 10px;
     color: white;
-    font-family: Helvetica, sans-serif;
     font-size: 18px;
     display: inline-block;
 }
@@ -90,7 +89,6 @@ nav ul {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    font-family: Helvetica, sans-serif;
 }
 
 .dropdown-content a:hover {
@@ -112,7 +110,6 @@ nav ul {
 .text {
     color: #ffffff;
     font-size: 24px;
-    font-family: Helvetica, sans-serif;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
@@ -125,7 +122,6 @@ nav ul {
 .garisatas {
     color: #ffffff;
     font-size: 24px;
-    font-family: Helvetica, sans-serif;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
@@ -138,7 +134,6 @@ nav ul {
 .garisbawah {
     color: #ffffff;
     font-size: 24px;
-    font-family: Helvetica, sans-serif;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
@@ -191,7 +186,6 @@ nav ul {
 }
 
 .sekilas h2 {
-    font-family: Helvetica, sans-serif;
     color: white;
 }
 
@@ -212,8 +206,9 @@ nav ul {
 }
 
 .tulungagungadalah {
-    margin: 60px;
+    margin: 80px;
     color: white;
+    text-align: justify;
 }
 
 .tulungagungadalah .selengkapnya {
@@ -240,7 +235,6 @@ nav ul {
 }
 
 .tulungagungadalah p {
-    font-family: Helvetica, sans-serif;
     font-size: 16px;
     line-height: 30px;
 }
@@ -262,7 +256,6 @@ nav ul {
 }
 
 .wisatapilihan h2 {
-    font-family: Helvetica, sans-serif;
     color: white;
 }
 
@@ -282,7 +275,6 @@ nav ul {
 
 .tabelwisatapilihan h4 {
     color: white;
-    font-family: Helvetica, sans-serif;
     font-size: 16px;
 }
 
@@ -337,6 +329,7 @@ nav ul {
     font-size: larger;
     line-height: 35px;
     text-align: justify;
+    margin-right: 45px;
 }
 
 #ketiga img {
