@@ -79,7 +79,7 @@ nav ul {
     background-color: #d07500;
     padding: 5px 0;
     text-align: center;
-    max-width: 300px;
+    max-width: 350px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -147,7 +147,7 @@ nav ul {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    position: absolute;
+    position: static;
 }
 
 .profile {
@@ -169,7 +169,8 @@ nav ul {
 }
 
 
-/* .nextpage {
+.nextpage {
+    max-width: 100px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -184,7 +185,7 @@ nav ul {
     text-decoration: none;
     text-emphasis: none;
     font-size: 30px;
-} */
+}
 
 #footerlogo {
     padding: 35px;
