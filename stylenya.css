@@ -1,0 +1,245 @@
+body {
+    background-color: #141626;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+.atasan {
+    position: relative;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+    /* top: 10;
+    left: 10%;
+    right: 5%; */
+}
+
+.logo img {
+    max-height: 120px;
+    min-height: 50px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+nav {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a:hover {
+    background-color: #141626;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 150px 10px 10px;
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+}
+
+nav ul {
+    /* margin-left: 18%; */
+    margin-right: auto;
+    display: block;
+    margin-top: -10px;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding-right: 150px;
+    padding-top: 10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+}
+
+.dropdown-content a {
+    text-align: left;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #141626
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.wisatapilihan {
+    position: relative;
+    display: inline;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.wisatapilihanbgt {}
+
+.wisatapilihanbgt h2 {
+    background-color: #cf7500;
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+.boxwisatapilihan {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.boxwisatapilihan img {
+    max-width: 350px;
+    min-width: 200px;
+    text-align: center;
+}
+
+.boxwisatapilihan h4 {
+    font-size: 18px;
+}
+
+.flexkiri {
+    background-color: #141626;
+}
+
+.flexkanan {
+    background-color: #141626;
+}
+
+.flexkiri,
+.flexkanan {
+    padding: 10px;
+    flex: 30%;
+}
+
+
+/* @media (max-width: 800px) {
+    .flexkanan,
+    .flexkiri {
+        flex: 100%;
+    }
+} */
+
+
+/* .profilkiri {
+    background-color: #0e1130;
+}
+
+.profilkiri p {
+    font-size: 16px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.profilkiri h2 {
+    background-color: #cf7500;
+    display: inline-block;
+    padding: 20px 20px;
+    font-size: 26px;
+}
+
+.profilkanan h2 {
+    display: inline-block;
+    padding: 20px 20px;
+    font-size: 26px;
+}
+
+.profil .profilkiri img {
+    max-width: 200px;
+    float: left;
+    margin: 20px;
+}
+
+.profilkanan img {
+    max-width: 50px;
+} */
+
+.profile {
+    position: absolute;
+    background-color: #0e1130;
+    max-width: 100%;
+    box-shadow: 5px 10px 18px black;
+    margin-top: 30px;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile td {
+    padding: 15px 20px;
+    color: white;
+}
+
+.btbawah {
+    background-color: #cf7500;
+    width: 240px;
+    padding: 1px 0px 1px 15px;
+}
+
+#footerlogo {
+    padding: 35px;
+}
+
+#kedua {
+    max-width: 30%;
+}
+
+.profile img {
+    max-width: 200px;
+}
+
+#ketiga {
+    background-color: #cf7500;
+    color: white;
+    max-width: auto;
+}
+
+#ketiga h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#kedua p {
+    font-size: larger;
+    line-height: 35px;
+    text-align: justify;
+    margin-right: 45px;
+}
+
+#ketiga img {
+    width: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
