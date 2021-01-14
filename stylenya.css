@@ -6,6 +6,7 @@ body {
 * {
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
+    margin: 0;
 }
 
 .atasan {
@@ -27,6 +28,9 @@ body {
     margin-right: auto;
     display: block;
 }
+
+
+/* navbar */
 
 nav {
     position: relative;
@@ -97,16 +101,156 @@ nav ul {
     display: block;
 }
 
-.wisatapilihan {
-    position: relative;
-    display: inline;
+
+/* sekilas tulungagung */
+
+.sekilasta {
+    /* position: absolute;
+    display: inline-block; */
     text-align: center;
     margin-right: auto;
     margin-left: auto;
     margin-top: 50px;
 }
 
-.wisatapilihanbgt {}
+.sekilasta h2 {
+    background-color: #cf7500;
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+.gambartulungagung {
+    text-align: center;
+}
+
+.tulungagungdepan img,
+.tulungagungbelakang img {
+    max-height: 400px;
+    min-height: 200px;
+}
+
+.tulungagungdepan {
+    margin-top: -280px;
+    margin-left: 40px;
+}
+
+.tulungagungadalah {
+    margin: 80px;
+    color: white;
+    text-align: justify;
+}
+
+.tulungagungadalah .selengkapnya {
+    position: relative;
+    width: 150px;
+    left: 75%;
+}
+
+@media
+/* slider */
+
+.mySlides {
+    display: none;
+}
+
+.slider .slideshow-container img {
+    vertical-align: middle;
+}
+
+.slider .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+
+/* Caption text */
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    position: relative;
+    bottom: 50px;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.mySlides img {
+    max-width: 800px;
+}
+
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 300px) {
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+
+
+/* .wisatapilihanbgt {} */
+
+.wisatapilihan {
+    /* position: absolute;
+    display: inline; */
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
 
 .wisatapilihanbgt h2 {
     background-color: #cf7500;
@@ -142,104 +286,4 @@ nav ul {
 .flexkanan {
     padding: 10px;
     flex: 30%;
-}
-
-
-/* @media (max-width: 800px) {
-    .flexkanan,
-    .flexkiri {
-        flex: 100%;
-    }
-} */
-
-
-/* .profilkiri {
-    background-color: #0e1130;
-}
-
-.profilkiri p {
-    font-size: 16px;
-    line-height: 35px;
-    text-align: justify;
-}
-
-.profilkiri h2 {
-    background-color: #cf7500;
-    display: inline-block;
-    padding: 20px 20px;
-    font-size: 26px;
-}
-
-.profilkanan h2 {
-    display: inline-block;
-    padding: 20px 20px;
-    font-size: 26px;
-}
-
-.profil .profilkiri img {
-    max-width: 200px;
-    float: left;
-    margin: 20px;
-}
-
-.profilkanan img {
-    max-width: 50px;
-} */
-
-.profile {
-    position: absolute;
-    background-color: #0e1130;
-    max-width: 100%;
-    box-shadow: 5px 10px 18px black;
-    margin-top: 30px;
-    display: inline;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.profile td {
-    padding: 15px 20px;
-    color: white;
-}
-
-.btbawah {
-    background-color: #cf7500;
-    width: 240px;
-    padding: 1px 0px 1px 15px;
-}
-
-#footerlogo {
-    padding: 35px;
-}
-
-#kedua {
-    max-width: 30%;
-}
-
-.profile img {
-    max-width: 200px;
-}
-
-#ketiga {
-    background-color: #cf7500;
-    color: white;
-    max-width: auto;
-}
-
-#ketiga h2 {
-    text-align: center;
-    font-size: 30px;
-}
-
-#kedua p {
-    font-size: larger;
-    line-height: 35px;
-    text-align: justify;
-    margin-right: 45px;
-}
-
-#ketiga img {
-    width: 80px;
-    padding-left: 15px;
-    padding-right: 15px;
 }
