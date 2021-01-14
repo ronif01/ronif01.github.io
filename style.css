@@ -105,6 +105,7 @@ nav ul {
 
 .mySlides img {
     width: 100%;
+    height: auto;
 }
 
 .textdalamnya {
@@ -251,7 +252,8 @@ nav ul {
     margin-top: 50px;
 }
 
-.wisatapilihanbgt {}
+
+/* .wisatapilihanbgt {} */
 
 .wisatapilihanbgt h2 {
     background-color: #cf7500;
