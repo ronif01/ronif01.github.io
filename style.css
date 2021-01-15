@@ -1,6 +1,8 @@
 body {
     background-color: #141626;
     margin: 0;
+    width: fit-content;
+    padding: 0;
 }
 
 * {
@@ -9,7 +11,7 @@ body {
 }
 
 .atasan {
-    position: absolute;
+    position: relative;
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -20,13 +22,12 @@ body {
 }
 
 .logo img {
-    max-width: 150px;
-    min-height: 150px;
+    max-height: 120px;
+    min-height: 50px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin-top: -20px;
 }
 
 nav {
@@ -100,6 +101,11 @@ nav ul {
 
 .mySlides {
     display: block;
+}
+
+.mySlides img {
+    width: 100%;
+    height: auto;
 }
 
 .textdalamnya {
@@ -194,12 +200,11 @@ nav ul {
 
 .tulungagungdepan img,
 .tulungagungbelakang img {
-    max-width: 600px;
-    min-width: auto;
+    max-height: 400px;
+    min-height: 200px;
 }
 
 .tulungagungdepan {
-    z-index: -1;
     margin-top: -280px;
     margin-left: 40px;
 }
@@ -239,48 +244,51 @@ nav ul {
 }
 
 .wisatapilihan {
-    background-color: #cf7500;
     position: relative;
-    display: inline-block;
+    display: inline;
     text-align: center;
     margin-right: auto;
-    left: 40%;
-    margin-top: 100px;
+    margin-left: auto;
+    margin-top: 50px;
 }
 
-.wisatapilihanbgt {
-    padding-right: 50px;
-    padding-left: 50px;
-    margin-top: 20px;
+
+/* .wisatapilihanbgt {} */
+
+.wisatapilihanbgt h2 {
+    background-color: #cf7500;
+    display: inline-block;
+    padding: 20px 30px;
 }
 
-.wisatapilihan h2 {
-    color: white;
-}
-
-.tabelwisatapilihan table {
-    margin-top: 70px;
-    position: relative;
-    left: 25%;
-    right: 25%;
+.boxwisatapilihan {
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
 }
 
-.tabelwisatapilihan tr,
-.tabelwisatapilihan td {
-    margin: 30px;
-    padding: 15px 30px;
+.boxwisatapilihan img {
+    max-width: 350px;
+    min-width: 200px;
+    text-align: center;
 }
 
-.tabelwisatapilihan h4 {
-    color: white;
-    font-size: 16px;
+.boxwisatapilihan h4 {
+    font-size: 18px;
 }
 
-.tabelwisatapilihan img {
-    max-width: 300px;
-    box-shadow: 5px 10px 20px rgb(4, 4, 4);
-    border-radius: 2px;
+.flexkiri {
+    background-color: #141626;
+}
+
+.flexkanan {
+    background-color: #141626;
+}
+
+.flexkiri,
+.flexkanan {
+    padding: 10px;
+    flex: 30%;
 }
 
 .profile {
