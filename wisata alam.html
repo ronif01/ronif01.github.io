@@ -6,137 +6,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beautiful Tulungagung</title>
     <link rel="stylesheet" href="style non index.css">
+    <link rel="shortcut icon" href="icon/icon.ico" type="image/x-icon">
+    <script src="home.js"></script>
 </head>
 
 <body>
     <div class="logo ">
         <img src="icon/logo.png " alt="Beautiful Tulungagung ">
     </div>
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="wisata history.html">Wisata Sejarah</a>
-            </li>
-            <li>
+    <div class="navbar">
+        <div class="topnav" id="myTopnav">
+            <div class="isinavbar">
+                <a href="#home">Beranda</a>
                 <div class="dropdown">
-                    <button class="dropbtn">Wisata Alam</button>
+                    <button class="dropbtn">Wisata Alam </button>
                     <div class="dropdown-content">
-                        <a href="wisata pantai.html">Pantai</a>
-                        <a href="wisata air terjun.html">Air Terjun</a>
-                        <a href="wisata alam.html">Wisata Lain</a>
+                        <a href="#">Pantai</a>
+                        <a href="#">Air Terjun</a>
+                        <a href="#">Wisata Alam Lain</a>
                     </div>
                 </div>
-            </li>
-            <li>
-                <a href="wisata buatan.html">Wisata Buatan</a>
-            </li>
-        </ul>
-    </nav>
+                <a href="#news">Wisata Sejarah</a>
+                <a href="#contact">Wisata Buatan</a>
+                <a href="#about" class="about">Tentang Kami</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="navbarClass()">&#9776;</a>
+            </div>
+        </div>
+    </div>
     <div class="jarak"></div>
     <div class="subjudul">
-        <h1>WISATA ALAM</h1>
+        <h1>WISATA SEJARAH</h1>
     </div>
     <div class="jarak"></div>
-    <div class="DaftarWisata">
-        <table>
-            <td id="KotakGambar">
-                <img class="GambarWisata" src="wisata alam (lainnya)/ranu gumbolo.jpg">
-            </td>
-            <td>
-                <h1 id="NamaWisata">RANU GUMBOLO</h1>
-                <h2 id="Penjelasan">Berbeda dengan objek wisata Ranu Kombolo yang sangat minim fasilitas wisata, objek wisata ini cenderung memiliki fasilitas wisata yang sangat lengkap. Dari mulai arena bermain, fasilitas speedboat, sampai dengan kolam pemancingan, semuanya
-                    sudah
-                </h2>
-                <div class="selengkapnya">
-                    <button><h4>Selengkapnya</h4></button>
-                </div>
-            </td>
-        </table>
+    <div class="bagian">
+        <div class="bentuk1">
+            <img class="GambarWisata" src="wisata sejarah/candi penampihan.jpg">
+        </div>
+        <div class="bentuk2">
+            <h1 id="NamaWisata">CANDI PENAMPIHAN</h1>
+            <h2 id="Penjelasan">Candi penampihan merupakan bangunan candi peninggalan kerajaan mataram. candi yang didirikan sekitar tahun 898 masehi ini terletak tidak jauh dari lokasi objek wisata air tarjun lawean di area sekitar kompleks candi</h2>
+            <div class="selengkapnya">
+                <button><h4>Selengkapnya</h4></button>
+            </div>
+        </div>
     </div>
     <div class="jarak"></div>
-    <div class="DaftarWisata">
-        <table>
-            <td id="KotakGambar">
-                <img class="GambarWisata" src="wisata alam (lainnya)/sungai niyama.jpg">
-            </td>
-            <td>
-                <h1 id="NamaWisata">SUNGAI NIYAMA</h1>
-                <h2 id="Penjelasan">Di sekitar sungai ini terdapat sebuah terowongan yang cukup melegenda bagi warga sekitar, karena memang terowongan ini sudah dibangun sejak jaman penjajahan Jepang.</h2>
-                <div class="selengkapnya">
-                    <button><h4>Selengkapnya</h4></button>
-                </div>
-            </td>
-        </table>
+    <div class="bagian">
+        <div class="bentuk1">
+            <img class="GambarWisata" src="wisata sejarah/candi sanggrahan.jpg">
+        </div>
+        <div class="bentuk2">
+            <h1 id="NamaWisata">CANDI SANGGRAHAN</h1>
+            <h2 id="Penjelasan">Candi sanggrahan dulunya adalah tempat sembahnyang agama budha. Belakangan, setelah tidak digunakan lagi candi ini beralih fungsi menjadi objek wisata yang terbuka untuk umum</h2>
+            <div class="selengkapnya">
+                <button><h4>Selengkapnya</h4></button>
+            </div>
+        </div>
     </div>
     <div class="jarak"></div>
-    <div class="DaftarWisata">
-        <table>
-            <td id="KotakGambar">
-                <img class="GambarWisata" src="wisata alam (lainnya)/batu gedong.jpg">
-            </td>
-            <td>
-                <h1 id="NamaWisata">BATU GEDONG</h1>
-                <h2 id="Penjelasan">Batu Gedong juga merupakan salah satu objek wisata pemandian alam yang sangat menarik untuk dikunjungi di waktu luang. Pemandian alam ini memiliki aliran yang dangkal, sehingga cukup aman untuk dikunjungi bersama dengan anak – anak.</h2>
-                <div class="selengkapnya">
-                    <button><h4>Selengkapnya</h4></button>
-                </div>
-            </td>
-        </table>
+    <div class="bagian">
+        <div class="bentuk1">
+            <img class="GambarWisata" src="wisata sejarah/candi dadi(1).jpg">
+        </div>
+        <div class="bentuk2">
+            <h1 id="NamaWisata">CANDI DADI</h1>
+            <h2 id="Penjelasan">Candi Dadi berlokasi di Desa Wajak Kidul. Candi ini merupakan salah satu objek wisata candi yang sangat populer di kalangan wisatawan. Pasalnya, selain menawarkan wisata sejarah, Candi Dadi juga menawarkan pemandangan alam</h2>
+            <div class="selengkapnya">
+                <button><h4>Selengkapnya</h4></button>
+            </div>
+        </div>
     </div>
     <div class="jarak"></div>
-    <div class="DaftarWisata">
-        <table>
-            <td id="KotakGambar">
-                <img class="GambarWisata" src="wisata alam (lainnya)/bukit jomblo.jpg">
-            </td>
-            <td>
-                <h1 id="NamaWisata">BUKIT JOMBLO</h1>
-                <h2 id="Penjelasan">Di tempat ini, pengunjung dapat bersantai sembari menikmati sejuknya udara khas wilayah pegunungan. Selain itu, pengunjung juga bisa menikmati keindahan alam Gunung Pakis menggunakan gardu pandang atau melakukan beberapa take foto</h2>
-                <div class="selengkapnya">
-                    <button><h4>Selengkapnya</h4></button>
-                </div>
-            </td>
-        </table>
+    <div class="bagian">
+        <div class="bentuk1">
+            <img class="GambarWisata" src="wisata sejarah/candi boyolangu.jpg">
+        </div>
+        <div class="bentuk2">
+            <h1 id="NamaWisata">CANDI BOYOLANGU</h1>
+            <h2 id="Penjelasan">Situs ini baru ditemukan pada 1914 dalam timbunan tanah. Kompleks candi Boyolangu ini terdiri dari tiga bangunan perwara. Letak candi Boyolangu ini ada di Dusun Boyolangu, Desa Boyolangu, Kecamatan Boyolangu, Kabupaten Tulungagung.</h2>
+            <div class="selengkapnya">
+                <button><h4>Selengkapnya</h4></button>
+            </div>
+        </div>
     </div>
     <div class="nextpage">
         <h4><a href="#">1</a> | <a href="#">2</a> | <a href="#">3</a></h4>
     </div>
-    <div class="profile">
-        <table>
-            <td id="footerlogo"><img src="icon/logo.png" alt="logo"></td>
-            <td id="kedua">
-                <div class="btbawah">
-                    <h2>Beautiful Tulungagung</h2>
-                </div>
-                <p>Beautiful Tulungagung adalah Platform Pariwisata karya anak muda Indonesia yang bertujuan untuk mengenalkan pariwisata di daerah Kabupaten Kota Tulungagung. Kantor berada di Jl. R.A Kartini, Sumbergempol, Tulungagung, Jawa Timur 66291.
-                    Telepon (+62) 815-5682-7622. Email admin@beautifultulungagung.com
-                </p>
-            </td>
-            <td id="ketiga">
-                <h2>Contact</h2>
-                <table>
-                    <tr>
-                        <td>
-                            <a href="#"><img src="icon/tw.png" alt="twitter" srcset=""></a>
-                        </td>
-                        <td>
-                            <a href="#"><img src="icon/yt.png" alt="youtube"></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a href="#"><img src="icon/fb.png" alt="facebook"></a>
-                        </td>
-                        <td>
-                            <a href="#"><img src="icon/Ig.png" alt="instagram"></a>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </table>
+    <div class="footer">
+        <p>&copy; 2020 Copyright by <a href="#">Beautiful Tulungagung</a>
+        </p>
     </div>
 </body>
 
