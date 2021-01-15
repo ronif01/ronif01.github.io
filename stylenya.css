@@ -177,7 +177,6 @@ right: 5%; */
     height: auto;
 }
 
-
 @media screen and (max-width: 550px) {
     .tulungagungdepan img,
     .tulungagungbelakang img {
@@ -240,14 +239,74 @@ right: 5%; */
     text-align: justify;
 }
 
-.kamiadalah, .formulir{
+.kamiadalah,
+.formulir {
     margin-left: 100px;
     margin-right: 100px;
 }
 
+
 /*
 slider */
 
+.slider .slideshow-container .mySlides {
+    display: none;
+}
+
+.slider .mySlides img {
+    vertical-align: middle;
+}
+
+
+/* Slideshow container */
+
+.slider .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+
+/* Caption text */
+
+.mySlides .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+
+.slider .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
+
+
+/* 
 .slider .mySlides {
     display: none;
 }
@@ -295,7 +354,7 @@ slider */
 .active,
 #dots .dot:hover {
     background-color: #717171;
-}
+} */
 
 
 /* On smaller screens, decrease text size */
@@ -377,6 +436,7 @@ slider */
     margin-left: auto;
     margin-right: auto;
 }
+
 .footer p,
 .footer p a {
     font-size: 18px;
@@ -385,22 +445,25 @@ slider */
     text-decoration: none;
 }
 
+
 /* formulir */
-input[type=text], textarea {
+
+input[type=text],
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
-  }
-  
-  label {
+}
+
+label {
     padding: 12px 12px 12px 0;
     display: inline-block;
     color: black;
-  }
-  
-  input[type=submit] {
+}
+
+input[type=submit] {
     background-color: #cf7500;
     color: black;
     padding: 12px 20px;
@@ -408,41 +471,46 @@ input[type=text], textarea {
     border-radius: 4px;
     cursor: pointer;
     float: right;
-  }
-  
-  input[type=submit]:hover {
+}
+
+input[type=submit]:hover {
     background-color: #cf7500;
-  }
-  
-  .formulir {
+}
+
+.formulir {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
     margin-top: 40px;
-  }
-  
-  
-  .baris:after {
+}
+
+.baris:after {
     content: "";
     display: table;
     clear: both;
-  }
-  
-  /* Responsive */
-  @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 600px) {
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
     }
-  }
+}
 
 
 /* sosmed */
-.sosmed a img{
+
+.sosmed a img {
     width: 40px;
     height: auto;
 }
-.sosmed{
+
+.sosmed {
     margin-top: 10px;
     width: 100%;
     /* padding: 20px; */
