@@ -177,6 +177,7 @@ right: 5%; */
     height: auto;
 }
 
+
 @media screen and (max-width: 550px) {
     .tulungagungdepan img,
     .tulungagungbelakang img {
@@ -232,11 +233,17 @@ right: 5%; */
     text-align: center;
 }
 
-.tulungagungadalah p {
+.tulungagungadalah p,
+.kamiadalah p {
     font-size: 16px;
     line-height: 28px;
+    text-align: justify;
 }
 
+.kamiadalah, .formulir{
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
 /*
 slider */
@@ -370,11 +377,78 @@ slider */
     margin-left: auto;
     margin-right: auto;
 }
-
 .footer p,
 .footer p a {
     font-size: 18px;
     font-weight: 100;
     color: white;
     text-decoration: none;
+}
+
+/* formulir */
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color: black;
+  }
+  
+  input[type=submit] {
+    background-color: #cf7500;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #cf7500;
+  }
+  
+  .formulir {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  
+  .baris:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+
+/* sosmed */
+.sosmed a img{
+    width: 40px;
+    height: auto;
+}
+.sosmed{
+    margin-top: 10px;
+    width: 100%;
+    /* padding: 20px; */
+    text-align: center;
+    position: relative;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
 }
