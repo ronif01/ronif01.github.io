@@ -181,10 +181,18 @@ body {
     text-align: justify;
 }
 
+.bagian .bentuk2 #Penjelasan #more {
+    display: none;
+}
+
 .bagian .bentuk2 .selengkapnya {
     position: relative;
     width: 150px;
     left: 60%;
+}
+
+.bagian .bentuk2 .selengkapnya #myBtn {
+    display: inline-block;
 }
 
 .bagian .bentuk2 .selengkapnya button {
