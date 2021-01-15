@@ -88,6 +88,14 @@ body {
     font-size: 16px;
 }
 
+.bagian .bentuk3 {
+    width:max-content;
+    height:380px;
+    background-color: #141625;
+}
+
+.bagian .bentuk3 .profil{}
+
 @media screen and (max-width: 800px) {
 body{
     display: inline-block;
@@ -152,26 +160,6 @@ body{
 }
 }
 
-
-/*.profile {
-    position: absolute;
-    background-color: #0e1130;
-    max-width: 100%;
-    box-shadow: 5px 10px 18px black;
-}
-
-.profile td {
-    padding: 15px 20px;
-    color: white;
-}
-
-.btbawah {
-    background-color: #cf7500;
-    width: 240px;
-    padding: 1px 0px 1px 15px;
-}
-
-
 .nextpage {
     max-width: 100px;
     position: relative;
@@ -190,7 +178,25 @@ body{
     font-size: 30px;
 }
 
-#footerlogo {
+.profile {
+    position: absolute;
+    background-color: #0e1130;
+    max-width: 100%;
+    box-shadow: 5px 10px 18px black;
+}
+
+.profile td {
+    padding: 15px 20px;
+    color: white;
+}
+
+.btbawah {
+    background-color: #cf7500;
+    width: 240px;
+    padding: 1px 0px 1px 15px;
+}
+
+.bagian .bentuk1 #footerlogo {
     padding: 35px;
 }
 
@@ -224,4 +230,4 @@ body{
     width: 80px;
     padding-left: 15px;
     padding-right: 15px;
-} */
+}
