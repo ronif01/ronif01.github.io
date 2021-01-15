@@ -144,30 +144,36 @@ right: 5%; */
 }
 
 
-/* sekilas tulungagung */
+/* sekilas tulungagung + judul aboutme*/
 
-.sekilasta {
-    /* position: absolute;
-display: inline-block; */
+.sekilasta,
+.ttgkamibgt {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
     margin-top: 50px;
 }
 
-.sekilasta h2 {
+.sekilasta h2,
+.ttgkamibgt h2 {
     background-color: #cf7500;
     display: inline-block;
     padding: 20px 30px;
 }
 
-.gambartulungagung {
+.gambartulungagung,
+.gambarlogo {
     text-align: center;
 }
 
 .tulungagungdepan img,
 .tulungagungbelakang img {
     width: 500px;
+    height: auto;
+}
+
+.gambarlogobgt img {
+    width: 300px;
     height: auto;
 }
 
