@@ -186,6 +186,11 @@ right: 5%; */
     }
 }
 
+.gambar img {
+    width: 100%;
+    height: auto;
+}
+
 
 /* tulungagung adalah
  */
@@ -243,130 +248,6 @@ right: 5%; */
 .formulir {
     margin-left: 100px;
     margin-right: 100px;
-}
-
-
-/*
-slider */
-
-.slider .slideshow-container .mySlides {
-    display: none;
-}
-
-.slider .mySlides img {
-    vertical-align: middle;
-}
-
-
-/* Slideshow container */
-
-.slider .slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-}
-
-
-/* Caption text */
-
-.mySlides .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-
-
-/* The dots/bullets/indicators */
-
-.slider .dot {
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.active {
-    background-color: #717171;
-}
-
-
-/* On smaller screens, decrease text size */
-
-@media only screen and (max-width: 300px) {
-    .text {
-        font-size: 11px
-    }
-}
-
-
-/* 
-.slider .mySlides {
-    display: none;
-}
-
-.slider .mySlides img {
-    width: 100%;
-    height: auto;
-    margin: auto;
-}
-
-.slider .slideshow-container .mySlides img {
-    vertical-align: middle;
-}
-
-.slider .slideshow-container {
-    width: 100%;
-    height: auto;
-    position: relative;
-    margin: auto;
-}
-
-.mySlides .nama {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 50%;
-    width: 100%;
-    text-align: center;
-}
-
-#dots .dot {
-    position: relative;
-    bottom: 100px;
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 2px;
-    background-color: lightgray;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.4s ease;
-}
-
-.active,
-#dots .dot:hover {
-    background-color: #717171;
-} */
-
-
-/* On smaller screens, decrease text size */
-
-@media only screen and (max-width: 600px) {
-    .nama {
-        bottom: 40%;
-        font-size: 12px;
-    }
-    .dot {
-        bottom: 50px;
-    }
 }
 
 
