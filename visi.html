@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #visible {
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button onclick="show()">klik yok</button>
+    <div id="visible">
+        <h2>Hasdasddadasdasdasdsdai</h2>
+    </div>
+
+    <script>
+        function hide() {
+            document.getElementById("myP").style.visibility = "hidden";
+        }
+
+        function show() {
+            document.getElementById("visible").style.visibility = "visible";
+        }
+    </script>
+</body>
+
+</html>

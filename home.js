@@ -1,5 +1,4 @@
 // slider pada homepage
-
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -15,8 +14,12 @@ function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("dot");
-    if (n > slides.length) { slideIndex = 1 }
-    if (n < 1) { slideIndex = slides.length }
+    if (n > slides.length) {
+        slideIndex = 1
+    }
+    if (n < 1) {
+        slideIndex = slides.length
+    }
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
@@ -34,5 +37,22 @@ function navbarClass() {
         x.className += " responsive";
     } else {
         x.className = "topnav";
+    }
+}
+
+
+function show() {
+    var titik2 = document.getElementById("titik2");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+
+    if (titik2.style.display === "none") {
+        titik2.style.display = "inline";
+        btnText.innerHTML = "<b>Lihat Selengkapnya</b>";
+        moreText.style.display = "none";
+    } else {
+        titik2.style.display = "none";
+        btnText.innerHTML = "<b>Lihat Lebih Sedikit</b>";
+        moreText.style.display = "inline";
     }
 }
